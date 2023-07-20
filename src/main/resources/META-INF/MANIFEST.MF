@@ -1,0 +1,6 @@
+Agent-Class: org.example.agent.MyInstrumentationAgent
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Class-Path: libs/tools-1.8.0_152.jar libs/javassist-3.27.0-GA.jar libs/logback-classic-1.2.9.jar libs/logback-core-1.2.9.jar libs/slf4j-api-1.7.32.jar
+Premain-Class: org.example.agent.MyInstrumentationAgent
+Main-Class: org.example.application.Launcher
